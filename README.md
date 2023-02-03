@@ -9,7 +9,7 @@ Icarus Verilog
 
 ## Build image
 	export DOCKER_BUILDKIT = 0
-   	docker build -t lerwys/iverilog .
+   	docker build -t iverilog .
 
 ## Compiling verilog
 `iverilog.sh`: compiles definition and testbench file and passes to vvp to execute

@@ -4,5 +4,5 @@ if [ $? -ne 0 ]
 then
 	exit 1
 else
-	unbuffer vvp -n /code/main.out &> /code/output.txt
+	vvp -n /code/main.out &> /code/output.txt
 fi
